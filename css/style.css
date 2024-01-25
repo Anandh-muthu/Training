@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: calibri;
+}
+
+
+
+/* Margin space */
+.margin-space{
+    height: 100%;
+    width: 70%;
+}
+
+
+
+
+/* header */
+header{
+    height: 600px;
+    width: 100%;
+    /* background-color: grey; */
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.356);
+    background-blend-mode: overlay;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+/* navbar start*/
+header .margin-space nav{
+    height: 15%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+nav h1{
+    font-size: 50px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size:24px ;
+    text-transform: uppercase;
+    color: white;
+}
+/* navbar end*/
+
+
+
+/* banner-content start*/
+header .banner-content{
+    height: 85%;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 40px; */
+}
+
+header .banner-content h1{
+    font-size: 46px;
+    font-weight: 600;
+    color: white;
+}
+header .banner-content p{
+    font-size: 24px;
+    width: 40%;
+    color: white;
+    /* font-weight: 600; */
+}
+
+.banner-content button{
+    color: white;
+    width: 15%;
+    background-color: rgb(251,104,24);
+    border: none;
+    font-size:24px ;
+    padding: 8px 16px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/* banner-content end*/
+
+
+
+/* empty space */
+.empty-space{
+    height: 100px;
+    width: 100%;
+    /* border-bottom: 2px solid red; */
+}
+
+
+/* about-us */
+.about-us{
+    height:500px;
+    width: 100%;
+    background-color: rgb(251,104,24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-us .margin-space{
+    /* background-color: rgb(122, 119, 119); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* about-us-content */
+.about-us .margin-space .about-us-content{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(251, 251, 178); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    gap: 30px;
+}
+.about-us .margin-space .about-us-content .about-us-conent-heading h1{
+    font-size: 50px;
+    color: white;
+}
+.about-us .margin-space .about-us-content .about-us-conent-heading .about-us-content-underline{
+    height: 10px;
+    width: 15%;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.about-us .margin-space .about-us-content p{
+    
+    font-size: 20px;
+    width: 85%;
+    color: white;
+}
+
+.about-us .margin-space .about-us-content a{
+    font-size:24px ;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: white;
+    width: 25%;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+}
+
+
+
+
+
+
+
+/* about-us-image */
+.about-us  .margin-space .about-us-image{
+    height: 100%;
+    width: 50%;
+    /* background-color: rgb(187, 255, 183); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-us .margin-space .about-us-image .sub-about-us-image
+{
+    height: 70%;
+    width: 100%;
+    /* background-color: white; */
+    background-image: url('../images/about-us.png');
+    background-size: cover;
+}
+
+
